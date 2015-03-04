@@ -363,7 +363,7 @@ Copyright (C) 2008 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/mnt/src/wsclient/wsclient/wsclient'
+ac_pwd='/home/andrei/vc/wsclient/wsclient/wsclient'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -578,7 +578,7 @@ S["CXXFLAGS"]="-g -O2"
 S["CXX"]="/opt/centos/devtoolset-1.1/root/usr/bin/c++"
 S["am__untar"]="${AMTAR} xf -"
 S["am__tar"]="${AMTAR} chof - \"$$tardir\""
-S["AMTAR"]="${SHELL} /mnt/src/wsclient/wsclient/wsclient/missing --run tar"
+S["AMTAR"]="${SHELL} /home/andrei/vc/wsclient/wsclient/wsclient/missing --run tar"
 S["am__leading_dot"]="."
 S["SET_MAKE"]=""
 S["AWK"]="gawk"
@@ -586,12 +586,12 @@ S["mkdir_p"]="/bin/mkdir -p"
 S["MKDIR_P"]="/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]=""
-S["install_sh"]="${SHELL} /mnt/src/wsclient/wsclient/wsclient/install-sh"
-S["MAKEINFO"]="${SHELL} /mnt/src/wsclient/wsclient/wsclient/missing --run makeinfo"
-S["AUTOHEADER"]="${SHELL} /mnt/src/wsclient/wsclient/wsclient/missing --run autoheader"
-S["AUTOMAKE"]="${SHELL} /mnt/src/wsclient/wsclient/wsclient/missing --run automake-1.11"
-S["AUTOCONF"]="${SHELL} /mnt/src/wsclient/wsclient/wsclient/missing --run autoconf"
-S["ACLOCAL"]="${SHELL} /mnt/src/wsclient/wsclient/wsclient/missing --run aclocal-1.11"
+S["install_sh"]="${SHELL} /home/andrei/vc/wsclient/wsclient/wsclient/install-sh"
+S["MAKEINFO"]="${SHELL} /home/andrei/vc/wsclient/wsclient/wsclient/missing --run makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/andrei/vc/wsclient/wsclient/wsclient/missing --run autoheader"
+S["AUTOMAKE"]="${SHELL} /home/andrei/vc/wsclient/wsclient/wsclient/missing --run automake-1.11"
+S["AUTOCONF"]="${SHELL} /home/andrei/vc/wsclient/wsclient/wsclient/missing --run autoconf"
+S["ACLOCAL"]="${SHELL} /home/andrei/vc/wsclient/wsclient/wsclient/missing --run aclocal-1.11"
 S["VERSION"]="0.5"
 S["PACKAGE"]="wsclient"
 S["CYGPATH_W"]="echo"
