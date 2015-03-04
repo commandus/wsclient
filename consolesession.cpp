@@ -21,7 +21,16 @@ int ConsoleSession::run(std::istream &cin, std::ostream &cout)
 		if (cin.eof())
 			break;
 		std::getline(cin, input);
-		mEndpoint.mEndpoint.send(h, input, websocketpp::frame::opcode::text);
+
+		try
+		{
+			mEndpoint.mEndpoint.send(h, input, websocketpp::frame::opcode::text);
+		}
+		catch (websocketpp::exception &ex)
+		{
+			std::cerr << "Error " << ex.code() << std::endl;
+		}
+		
 	}
 	return 0;
 
